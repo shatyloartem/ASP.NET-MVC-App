@@ -1,0 +1,37 @@
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\bin\Debug\graph.exe.config
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\bin\Debug\graph.exe
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\bin\Debug\graph.pdb
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\obj\Debug\graph.csproj.AssemblyReference.cache
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\obj\Debug\graph.Form1.resources
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\obj\Debug\graph.Properties.Resources.resources
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\obj\Debug\graph.csproj.GenerateResource.cache
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\obj\Debug\graph.csproj.CoreCompileInputs.cache
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\obj\Debug\graph.exe
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\graph\obj\Debug\graph.pdb
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\bin\Debug\graph.exe.config
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\bin\Debug\graph.exe
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\bin\Debug\graph.pdb
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.csproj.AssemblyReference.cache
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.CalculatorForm.resources
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.Form1.resources
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.Properties.Resources.resources
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.csproj.GenerateResource.cache
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.csproj.CoreCompileInputs.cache
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.exe
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.pdb
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.ageCategories.resources
+C:\Users\aldmi\OneDrive\Рабочий стол\CSHARP\calc_table_if\obj\Debug\graph.multiplicationTable.resources
+C:\Users\artem\Desktop\calc_table_if\bin\Debug\graph.exe.config
+C:\Users\artem\Desktop\calc_table_if\bin\Debug\graph.exe
+C:\Users\artem\Desktop\calc_table_if\bin\Debug\graph.pdb
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.csproj.SuggestedBindingRedirects.cache
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.ageCategories.resources
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.multiplicationTable.resources
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.Properties.Resources.resources
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.csproj.GenerateResource.cache
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.exe
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\graph.pdb
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\Graph.MainMenu.resources
+C:\Users\artem\Desktop\calc_table_if\obj\Debug\Graph.CalculatorView.resources
