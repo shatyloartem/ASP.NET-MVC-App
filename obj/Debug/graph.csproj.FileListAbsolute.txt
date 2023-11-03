@@ -43,9 +43,9 @@ C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\graph.csproj.SuggestedBindingRe
 C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\Graph.AgeCategoriesView.resources
 C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\Graph.CalculatorView.resources
 C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\Graph.MainMenu.resources
-C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\Graph.multiplicationTable.resources
 C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\graph.Properties.Resources.resources
 C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\graph.csproj.GenerateResource.cache
 C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\graph.csproj.CoreCompileInputs.cache
 C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\graph.exe
 C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\graph.pdb
+C:\Users\artem\Desktop\ASP.NET-MVC-App\obj\Debug\Graph.MultiplicationTableView.resources

@@ -1,11 +1,18 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Graph
 {
-    public partial class CalculatorView : Form, IOutputPrintable, IButtonThemeChangeable
+    public partial class MultiplicationTableView : Form, IButtonThemeChangeable, IOutputPrintable
     {
-        public CalculatorView(CalculatorController controller)
+        public MultiplicationTableView(MultiplicationTableController controller)
         {
             InitializeComponent(controller);
         }
@@ -26,7 +33,7 @@ namespace Graph
             outputLabel.ForeColor = Color.White;
             outputLabel.Text = message;
         }
-
+        
         /// <summary>
         /// Used to change specific button theme
         /// </summary>
@@ -38,20 +45,8 @@ namespace Graph
 
             switch (buttonType)
             {
-                case ButtonType.Plus:
-                    button = plusButton;
-                    break;
-                
-                case ButtonType.Minus:
-                    button = subtractButton;
-                    break;
-                
-                case ButtonType.Multiply:
-                    button = multiplyButton;
-                    break;
-                
-                case ButtonType.Division:
-                    button = divisionButton;
+                case ButtonType.Calculate:
+                    button = calculateButton;
                     break;
             }
 

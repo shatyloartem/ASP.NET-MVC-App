@@ -14,6 +14,10 @@ namespace Graph
             _model = new CalculatorModel();
         }
 
+        /// <summary>
+        /// Get age categories calculator page form
+        /// </summary>
+        /// <returns>Page form</returns>
         public Form getViewForm() => _view;
 
         #region ButtonsCallbacks
