@@ -3,24 +3,8 @@ using System.Windows.Forms;
 
 namespace Graph
 {
-    public partial class CalculatorView : Form, IOutputPrintable
+    public partial class CalculatorView : Form, IOutputPrintable, IButtonThemeChangeable
     {
-        public enum ButtonType
-        {
-            Plus,
-            Minus,
-            Multiply,
-            Division
-        }
-
-        public enum ThemeType
-        {
-            Active,
-            Inactive,
-            Pressed
-        }
-        
-        
         public CalculatorView(CalculatorController controller)
         {
             InitializeComponent(controller);
@@ -39,7 +23,7 @@ namespace Graph
             outputLabel.Text = message;
         }
 
-        public void changeButtonTheme(ButtonType buttonType, ThemeType themeType)
+        public void changeButtonTheme(ButtonType buttonType, ButtonThemeType themeType)
         {
             Button button = default;
 
@@ -64,17 +48,17 @@ namespace Graph
 
             switch (themeType)
             {
-                case ThemeType.Inactive:
+                case ButtonThemeType.Inactive:
                     button.BackColor = Color.Black;
                     button.ForeColor = Color.White;
                     break;
                 
-                case ThemeType.Active:
+                case ButtonThemeType.Active:
                     button.BackColor = Color.White;
                     button.ForeColor = Color.Black;
                     break;
                 
-                case ThemeType.Pressed:
+                case ButtonThemeType.Pressed:
                     button.BackColor = Color.DarkCyan;
                     button.ForeColor = Color.Black;
                     break;

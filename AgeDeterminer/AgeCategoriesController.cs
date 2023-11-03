@@ -20,17 +20,19 @@ namespace Graph
 
         public void OnCalculateButtonClicked(object sender, EventArgs args)
         {
+            _view.changeButtonTheme(ButtonType.Calculate, ButtonThemeType.Pressed);
             
+            _view.printResult(_model.CalculateByAgeString(_view.InputAge.Text));
         }
 
         public void OnCalculateButtonMouseEnter(object sender, EventArgs args)
         {
-            
+            _view.changeButtonTheme(ButtonType.Calculate, ButtonThemeType.Active);
         }
 
         public void OnCalculateButtonMouseExit(object sender, EventArgs args)
         {
-            
+            _view.changeButtonTheme(ButtonType.Calculate, ButtonThemeType.Inactive);
         }
 
         #endregion

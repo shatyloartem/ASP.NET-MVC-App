@@ -54,6 +54,7 @@
     <Compile Include="AgeDeterminer\AgeCategoriesView.Designer.cs">
       <DependentUpon>AgeCategoriesView.cs</DependentUpon>
     </Compile>
+    <Compile Include="ButtonThemeType.cs" />
     <Compile Include="ButtonType.cs" />
     <Compile Include="Calculator\CalculatorController.cs" />
     <Compile Include="Calculator\CalculatorView.cs">
@@ -63,6 +64,7 @@
       <DependentUpon>CalculatorView.cs</DependentUpon>
     </Compile>
     <Compile Include="Calculator\CalculatorModel.cs" />
+    <Compile Include="IButtonThemeChangeable.cs" />
     <Compile Include="IOutputPrintable.cs" />
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>

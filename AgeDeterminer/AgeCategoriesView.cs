@@ -4,20 +4,8 @@ using System.Windows.Forms;
 
 namespace Graph
 {
-    public partial class AgeCategoriesView : Form, IOutputPrintable
+    public partial class AgeCategoriesView : Form, IOutputPrintable, IButtonThemeChangeable
     {
-        public enum ButtonType
-        {
-            Calculate
-        }
-
-        public enum ThemeType
-        {
-            Active,
-            Inactive,
-            Pressed
-        }
-        
         public AgeCategoriesView(AgeCategoriesController controller)
         {
             InitializeComponent(controller);
@@ -37,7 +25,7 @@ namespace Graph
         }
         
         
-        public void changeButtonTheme(ButtonType buttonType, ThemeType themeType)
+        public void changeButtonTheme(ButtonType buttonType, ButtonThemeType themeType)
         {
             Button button = default;
 
@@ -50,53 +38,20 @@ namespace Graph
 
             switch (themeType)
             {
-                case ThemeType.Inactive:
+                case ButtonThemeType.Inactive:
                     button.BackColor = Color.Black;
                     button.ForeColor = Color.White;
                     break;
                 
-                case ThemeType.Active:
+                case ButtonThemeType.Active:
                     button.BackColor = Color.White;
                     button.ForeColor = Color.Black;
                     break;
                 
-                case ThemeType.Pressed:
+                case ButtonThemeType.Pressed:
                     button.BackColor = Color.DarkCyan;
                     button.ForeColor = Color.Black;
                     break;
-            }
-        }
-        
-        
-        
-        
-        
-        
-        private void OKButton_Click(object sender, EventArgs e)
-        {
-            String userInput = InputAge.Text;
-            double userAge;
-            if (double.TryParse(userInput, out userAge) && userAge > 0)
-            {
-                outputLabel.ForeColor = Color.White;
-            }
-            else
-            {
-                outputLabel.Text = "Invalid input";
-                outputLabel.ForeColor = Color.Red;
-                return;
-            }
-            if (userAge > 10 && userAge < 17)
-            {
-                outputLabel.Text = "Teenager";
-            }
-            else if (userAge <= 10)
-            {
-                outputLabel.Text = "Child";
-            }
-            else
-            {
-                outputLabel.Text = "Adult";
             }
         }
     }
