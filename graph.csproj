@@ -64,8 +64,6 @@
       <DependentUpon>CalculatorView.cs</DependentUpon>
     </Compile>
     <Compile Include="Calculator\CalculatorModel.cs" />
-    <Compile Include="IButtonThemeChangeable.cs" />
-    <Compile Include="IOutputPrintable.cs" />
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>

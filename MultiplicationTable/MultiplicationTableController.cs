@@ -5,8 +5,8 @@ namespace Graph
 {
     public class MultiplicationTableController
     {
-        private readonly MultiplicationTableView _view;
-        private readonly MultiplicationTableModel _model;
+        private MultiplicationTableView _view;
+        private MultiplicationTableModel _model;
 
         public MultiplicationTableController()
         {
@@ -14,14 +14,12 @@ namespace Graph
             _model = new MultiplicationTableModel();
         }
 
-        /// <summary>
-        /// Get age categories calculator page form
-        /// </summary>
-        /// <returns>Page form</returns>
-        public Form getViewForm() => _view;
+        public Form getViewForm()
+        {
+            return _view;
+        } 
 
-        #region ButtonCallbacks
-
+        
         public void OnCalculateButtonClick(object sender, EventArgs args)
         {
             _view.changeButtonTheme(ButtonType.Calculate, ButtonThemeType.Pressed);
@@ -38,7 +36,5 @@ namespace Graph
         {
             _view.changeButtonTheme(ButtonType.Calculate, ButtonThemeType.Inactive);
         }
-
-        #endregion
     }
 }

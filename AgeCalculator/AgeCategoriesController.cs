@@ -5,8 +5,8 @@ namespace Graph
 {
     public class AgeCategoriesController
     {
-        private readonly AgeCategoriesView _view;
-        private readonly AgeCategoriesModel _model;
+        private AgeCategoriesView _view;
+        private AgeCategoriesModel _model;
         
         public AgeCategoriesController()
         {
@@ -14,14 +14,12 @@ namespace Graph
             _model = new AgeCategoriesModel();
         }
 
-        /// <summary>
-        /// Get age categories calculator page form
-        /// </summary>
-        /// <returns>Page form</returns>
-        public Form getViewForm() => _view;
+        public Form getViewForm()
+        {
+            return _view;
+        }
 
-        #region ButtonCallbacks
-
+        
         public void OnCalculateButtonClicked(object sender, EventArgs args)
         {
             _view.changeButtonTheme(ButtonType.Calculate, ButtonThemeType.Pressed);
@@ -38,7 +36,5 @@ namespace Graph
         {
             _view.changeButtonTheme(ButtonType.Calculate, ButtonThemeType.Inactive);
         }
-
-        #endregion
     }
 }

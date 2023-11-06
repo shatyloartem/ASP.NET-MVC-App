@@ -152,7 +152,7 @@
         private System.Windows.Forms.Button divisionButton;
         private System.Windows.Forms.Button multiplyButton;
         private System.Windows.Forms.Button subtractButton;
-        public System.Windows.Forms.TextBox Input2 { get; private set; }
-        public System.Windows.Forms.TextBox Input1 { get; private set; }
+        public System.Windows.Forms.TextBox Input2;
+        public System.Windows.Forms.TextBox Input1;
     }
 }

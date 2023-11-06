@@ -86,7 +86,8 @@
         }
 
         #endregion
-        public System.Windows.Forms.TextBox InputAge { get; private set; }
+
+        public System.Windows.Forms.TextBox InputAge;
         private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.Button calculateButton;
     }

@@ -87,7 +87,7 @@
 
         #endregion
 
-        public System.Windows.Forms.TextBox InputNum { get; private set; }
+        public System.Windows.Forms.TextBox InputNum;
         private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.Label outputLabel;
     }

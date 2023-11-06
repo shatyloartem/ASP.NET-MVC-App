@@ -1,26 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace Graph
 {
-    public partial class MultiplicationTableView : Form, IButtonThemeChangeable, IOutputPrintable
+    public partial class MultiplicationTableView : Form
     {
         public MultiplicationTableView(MultiplicationTableController controller)
         {
             InitializeComponent(controller);
         }
 
-        /// <summary>
-        /// Used to show result message
-        /// </summary>
-        /// <param name="message">Message. Invalid Input if null</param>
         public void printResult(string message)
         {
             if (message == null)
@@ -34,14 +23,9 @@ namespace Graph
             outputLabel.Text = message;
         }
         
-        /// <summary>
-        /// Used to change specific button theme
-        /// </summary>
-        /// <param name="buttonType">Type of the button to change</param>
-        /// <param name="themeType">Theme to change the button</param>
         public void changeButtonTheme(ButtonType buttonType, ButtonThemeType themeType)
         {
-            Button button = default;
+            Button button = calculateButton;
 
             switch (buttonType)
             {

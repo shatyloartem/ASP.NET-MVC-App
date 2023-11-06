@@ -3,17 +3,13 @@ using System.Windows.Forms;
 
 namespace Graph
 {
-    public partial class CalculatorView : Form, IOutputPrintable, IButtonThemeChangeable
+    public partial class CalculatorView : Form
     {
         public CalculatorView(CalculatorController controller)
         {
             InitializeComponent(controller);
         }
 
-        /// <summary>
-        /// Used to show result message
-        /// </summary>
-        /// <param name="message">Message. Invalid Input if null</param>
         public void printResult(string message)
         {
             if (message == null)
@@ -27,14 +23,9 @@ namespace Graph
             outputLabel.Text = message;
         }
 
-        /// <summary>
-        /// Used to change specific button theme
-        /// </summary>
-        /// <param name="buttonType">Type of the button to change</param>
-        /// <param name="themeType">Theme to change the button</param>
         public void changeButtonTheme(ButtonType buttonType, ButtonThemeType themeType)
         {
-            Button button = default;
+            Button button = plusButton;
 
             switch (buttonType)
             {

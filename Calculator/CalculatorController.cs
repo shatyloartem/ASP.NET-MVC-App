@@ -5,8 +5,8 @@ namespace Graph
 {
     public class CalculatorController
     {
-        private readonly CalculatorView _view;
-        private readonly CalculatorModel _model;
+        private CalculatorView _view;
+        private CalculatorModel _model;
         
         public CalculatorController()
         {
@@ -14,16 +14,13 @@ namespace Graph
             _model = new CalculatorModel();
         }
 
-        /// <summary>
-        /// Get age categories calculator page form
-        /// </summary>
-        /// <returns>Page form</returns>
-        public Form getViewForm() => _view;
+        public Form getViewForm()
+        {
+            return _view;
+        } 
 
-        #region ButtonsCallbacks
 
-        #region PlusButton
-
+        
         public void OnPlusButtonClick(object sender, EventArgs args)
         {
             _view.changeButtonTheme(ButtonType.Plus, ButtonThemeType.Pressed);
@@ -40,11 +37,8 @@ namespace Graph
         {
             _view.changeButtonTheme(ButtonType.Plus, ButtonThemeType.Inactive);
         }
-        
-        #endregion
-        
-        #region DivisionButton
 
+        
         public void OnDivisionButtonClick(object sender, EventArgs args)
         {
             _view.changeButtonTheme(ButtonType.Division, ButtonThemeType.Pressed);
@@ -62,9 +56,6 @@ namespace Graph
             _view.changeButtonTheme(ButtonType.Division, ButtonThemeType.Inactive);
         }
         
-        #endregion
-        
-        #region MultiplyButton
 
         public void OnMultiplyButtonClick(object sender, EventArgs args)
         {
@@ -83,9 +74,6 @@ namespace Graph
             _view.changeButtonTheme(ButtonType.Multiply, ButtonThemeType.Inactive);
         }
         
-        #endregion
-        
-        #region SubtractButton
 
         public void OnSubtractionButtonClick(object sender, EventArgs args)
         {
@@ -103,9 +91,5 @@ namespace Graph
         {
             _view.changeButtonTheme(ButtonType.Minus, ButtonThemeType.Inactive);
         }
-        
-        #endregion
-
-        #endregion
     }
 }
